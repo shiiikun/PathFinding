@@ -30,6 +30,6 @@ public class Position {
         var deltaX = lhs.x - rhs.x;
         var deltaY = lhs.y - rhs.y;
         var deltaZ = lhs.z - rhs.z;
-        return (float) Math.sqrt(deltaX * deltaX + deltaY * deltaY + deltaX * deltaZ);
+        return (float) Math.sqrt(deltaX * deltaX + deltaY * deltaY + deltaZ * deltaZ);
     }
 }
